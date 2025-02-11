@@ -394,7 +394,7 @@ describe("Onion Routing", () => {
           .getRandomValues(new Uint32Array(1))[0]
           .toString();
 
-        const randomMessage = `Hello user, my favourite number is ${randomNumber}`;
+        const randomMessage = `Hello World!`;
 
         await fetch(`http://localhost:${BASE_USER_PORT + 0}/message`, {
           method: "POST",
